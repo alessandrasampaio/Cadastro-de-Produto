@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+}
+html{
+    background-color: #c0b283 ;
+}
+
+header{
+    font-family:'Edu NSW ACT Foundation','Nunito Sans','Roboto';
+    background-image:  linear-gradient(to right, #222222,#474747,#222222, #222222,#474747,#222222);
+    padding: 10px;
+    color:#dcd0c0;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    color:#dcd0c0;
+    font-size: 20px;
+    
+}
+
+
+main{
+    padding: 30px 50px;
+    margin: 50px 300px ;
+    background-color: #222222;
+    border-radius: 20px;
+
+}
+
+.cards{
+    border:none ;
+    color:#373737;
+    padding: 15px;
+    
+}
+
+.lineInput{
+    display: grid;
+    color: #dcd0c0;
+    margin-bottom: 10px;
+    
+
+}
+table th{
+    background-color: #373737;
+    color: #f4decb;
+    border: 0;
+    
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #373737;
+    border-radius: 5px;
+    outline: 0;
+    
+    
+}
+button{
+
+    border: 0;
+    padding: 10px;
+    outline: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color:#222222;
+    color: #f4decb;
+    transition: all ease 0.3ms;
+}
+
+button:hover{
+    background-color: #c0b283;
+    color:#373737;
+    font-weight: bold;
+
+}
+.contente{
+margin-top: 15px;
+
+}
+table{
+    border-collapse: collapse;
+    border: 3px solid  #373737;
+    padding: 1px 5px;
+    width: 100%;
+    text-align: left;
+    background-color: white;
+    
+}
+
+img{
+    width: 22px;
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+tbody{
+    text-align: center;
+    border: 3px solid  #373737;
+    margin: 2px;
+    color: #222222;
+}

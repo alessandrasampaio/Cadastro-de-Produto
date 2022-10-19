@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Edu+NSW+ACT+Foundation & family= Nunito+Sans &família= Roboto:ital@1 & display=swap" rel="stylesheet">
+
+    <a href="https://www.flaticon.com/br/icones-gratis/lixo" title="lixo ícones"></a>
+    <link rel="alternate" href="atom.xml" type="application/atom+xml" title="Atom">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Cadastro de Produtos</title>
+</head>
+<body>
+
+
+    <header>
+   
+        <h1>Minha Loja</h1>
+    </header>
+
+    <main>
+        <div class="title">
+          <h2>Controle de Estoque</h2>
+          <span>Lista de produtos da minha loja.</span>
+        
+        <div class="cards">  
+            
+        <div class="lineInput">
+          <label >Produto</label>
+          <input type="text"  id="produto" placeholder="Nome do Produto">
+
+        </div>    
+
+        <div class="lineInput">
+            <label>Valor</label>
+            <input type="number"  id="valor" placeholder="Valor do Produto">
+  
+        </div> 
+            <button onclick="produto.salvar()" id="btn1">Salvar</button>           
+            <button onclick="produto.cancelar()">Cancelar</button>
+        </div>
+
+
+        <div class="content">
+            <table border="1">
+            <thead class="center">
+                <th>id</th>
+                <th>Produto</th>
+                <th>Valor</th>
+                <th>Ações</th>
+            </thead>
+               <tbody id="tbody">
+                
+               </tbody>
+            </table>
+        </div>
+    
+    </main>
+    
+</body>
+</html>
